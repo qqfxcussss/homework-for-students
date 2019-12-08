@@ -9,7 +9,16 @@
 */
 
 interface User {
-    name: string;
-    age: number;
-    email: string;
+  name: string;
+  age: number;
+  email: string;
 }
+
+type FullUser = Required<User>;
+
+type PartialUser = Partial<User>;
+
+const userUpdate: PartialUser = {
+  email: "new@mail.com"
+};
+

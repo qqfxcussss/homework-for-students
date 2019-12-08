@@ -9,3 +9,15 @@ const product = {
     title: "Телефон",
     price: 1000
 };
+ 
+interface Product {
+    title: string;
+    price: number;
+    description?: string;
+}
+
+const productWithInterface: Product = {
+    title: "Телефон",
+    price: 1000
+};
+export {};

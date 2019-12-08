@@ -5,5 +5,10 @@
 */
 
 const person = {
-    
+  name: "Volodymyr",  
+  age: 20,           
+  address: {          
+    city: "Lviv",
+    street: "Shevchenka"
+  }
 };

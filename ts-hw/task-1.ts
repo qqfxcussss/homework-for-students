@@ -8,3 +8,14 @@ const user = {
     name: "Іван",
     age: 25
 };
+    
+interface User {
+    name: string;
+    age: number;
+}
+
+const userWithInterface: User = {
+    name: "Іван",
+    age: 25
+};
+export {};
